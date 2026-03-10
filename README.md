@@ -1,99 +1,12 @@
-# Dreame Vacuum Cleaner Soundpacks and Scripts
 
-Welcome to the Dreame Vacuum Cleaner Soundpacks and Scripts repository! This repository provides a variety of soundpacks for Dreame vacuum cleaners and useful scripts to manage and customize your device.
+Put .oog files to voicepack directory
 
-## Contents
-
-- [Soundpacks](#soundpacks)
-- [Scripts](#scripts)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Filenames](#filenames)
-
-## Soundpacks
-
-This repository includes multiple soundpacks that can be used to customize the audio feedback of your Dreame vacuum cleaner. Each soundpack contains a set of sound files that correspond to different actions and alerts of the vacuum cleaner.
-
-### Available Soundpacks
-
-- **Original Soundpack**: The standard set of sounds provided by Dreame.
-- **R2D2 Soundpack**: A custom set of sounds stolen from a Roborock Soundpack.
-- **GLADOS**: Another custom set of sounds from https://github.com/Findus23/voice_pack_dreame.
-- **Memes**: Another custom set of sounds using meme sounds.
-
-Each soundpack is organized in its own directory.
-
-## Scripts
-
-Along with the soundpacks, this repository contains useful scripts to manage and customize the sound settings of your Dreame vacuum cleaner.
-
-### Available Scripts
-
-- **CreateSoundFromYoutube.py**: A script to download a youtube video, extract the sound and add it to a chosen soundpack.
-
-## Installation
-
-To get started with using the soundpacks and scripts, follow these steps:
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/dreame-vacuum-soundpacks.git
-   ```
-2. Navigate to the cloned directory:
-   ```bash
-   cd dreame-vacuum-soundpacks
-   ```
-
-## Usage
-
-### Downloading a sound from Youtube and add it to a soundpack
-
-To install a new soundpack on your Dreame vacuum cleaner, run the following script:
-
-```bash
-python CreateSoundFromYoutube.py [-h] --youtube_url YOUTUBE_URL --soundpack SOUNDPACK --sound_id SOUND_ID
-```
-
-### Using a soundpack in Valetudo
-1. Get the URL of the wanted soundpack: 
-[GlaDOS Pack](https://github.com/n15c/voicepacks_dreame/releases/latest/download/glados.tar.gz)
-[Meme Soundpack](https://github.com/n15c/voicepacks_dreame/releases/latest/download/memes.tar.gz)
-[R2D2 Soundpack](https://github.com/n15c/voicepacks_dreame/releases/latest/download/r2d2.tar.gz)
-[Original Sounds](https://github.com/n15c/voicepacks_dreame/releases/latest/download/original-en.tar.gz)
-
-2. Get the corresponding MD5 hash of this file, either by using this [file](https://github.com/n15c/voicepacks_dreame/releases/latest/download/md5sums.txt) or calculate it by yourself
-3. Go to your Valetudo page <IP/HOSTNAME>/#/options/robot/misc
-4. Write down the data (the language code can be chosen by you, just don't use an official language like DE, EN, ...)
-
-## Contributing
-
-We welcome contributions to this repository! If you have a new soundpack or a useful script to share, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add some feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature
-   ```
-5. Open a pull request.
-
-## Other Stuff
-
-The csv was stolen from [ccoors](https://raw.githubusercontent.com/ccoors/dreame_voice_packs/main/sound_list.csv)
-
-
----
-
-Enjoy customizing your Dreame vacuum cleaner with new sounds and scripts!
+'''bash
+cd path_to_directory/voicepack 
+tar -czf voicepack.tar.gz *.ogg
+md5 voicepack.tar.gz                                                                                                                                             
+ls -la voicepack.tar.gz
+'''
 
 
 
