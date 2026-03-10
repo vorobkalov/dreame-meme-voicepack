@@ -8,6 +8,18 @@ md5 voicepack.tar.gz
 ls -la voicepack.tar.gz
 ```
 
+```bash
+data:
+  lang_id: UK
+  url: >-
+    https://github.com/vorobkalov/dreame-meme-voicepack/raw/refs/heads/main/voicepack.tar.gz
+  md5: 3545e91c0626beccbd284469f6283a77
+  size: 9620968
+target:
+  entity_id: vacuum.*
+action: dreame_vacuum.vacuum_install_voice_pack
+
+```
 
 
 ## Filenames
