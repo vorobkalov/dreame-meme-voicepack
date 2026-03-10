@@ -1,12 +1,12 @@
 
 Put .oog files to voicepack directory
 
-'''bash
+```bash
 cd path_to_directory/voicepack 
 tar -czf voicepack.tar.gz *.ogg
 md5 voicepack.tar.gz                                                                                                                                             
 ls -la voicepack.tar.gz
-'''
+```
 
 
 
