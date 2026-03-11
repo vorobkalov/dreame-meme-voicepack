@@ -8,6 +8,7 @@ md5 voicepack.tar.gz
 ls -la voicepack.tar.gz
 ```
 
+CUSTOM PACK
 ```bash
 data:
   lang_id: UK
@@ -18,6 +19,20 @@ data:
 target:
   entity_id: vacuum.*
 action: dreame_vacuum.vacuum_install_voice_pack
+
+```
+
+GLADOS
+```bash
+action: dreame_vacuum.vacuum_install_voice_pack
+data:
+  lang_id: UK
+  url: >-
+    https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz
+  md5: 3545e91c0626beccbd284469f6283a77
+  size: 9620968
+target:
+  entity_id: vacuum.*
 
 ```
 
