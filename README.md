@@ -13,8 +13,8 @@ CUSTOM PACK
 action: dreame_vacuum.vacuum_install_voice_pack
 data:
   lang_id: UK
-  url: "https://github.com/vorobkalov/dreame-meme-voicepack/raw/refs/heads/main/glados_base_plus_meme.gz"
-  md5: 9afcaa3ceb5c270339ca7131f0e7f810
+  url: "https://github.com/vorobkalov/dreame-meme-voicepack/raw/refs/heads/main/glados_base_plus_meme.tar.gz"
+  md5: 7355038336cc7474042527cca1828eec
   size: 11644307
 target:
   entity_id: vacuum.*
