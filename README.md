@@ -10,16 +10,14 @@ ls -la voicepack.tar.gz
 
 CUSTOM PACK
 ```bash
+action: dreame_vacuum.vacuum_install_voice_pack
 data:
   lang_id: UK
-  url: >-
-    https://github.com/vorobkalov/dreame-meme-voicepack/raw/refs/heads/main/voicepack.tar.gz
-  md5: 3545e91c0626beccbd284469f6283a77
-  size: 9620968
+  url: "https://github.com/vorobkalov/dreame-meme-voicepack/raw/refs/heads/main/glados_base_plus_meme.gz"
+  md5: 9afcaa3ceb5c270339ca7131f0e7f810
+  size: 11644307
 target:
   entity_id: vacuum.*
-action: dreame_vacuum.vacuum_install_voice_pack
-
 ```
 
 GLADOS
